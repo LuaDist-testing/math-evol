@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "math-evol"
-version = "1.12-1"
+version = "1.12-2"
 -- LuaDist source
 source = {
-  tag = "1.12-1",
+  tag = "1.12-2",
   url = "git://github.com/LuaDist-testing/math-evol.git"
 }
 -- Original source
@@ -19,7 +19,7 @@ description = {
       particularly robust and will cope well with large numbers of variables,
       or rugged objective functions.
    ]],
-   homepage = "http://cpansearch.perl.org/src/PJB/",
+   homepage = "http://www.pjb.com.au/comp/lua/Evol.html",
    license = "MIT/X11"
 }
 dependencies = {
@@ -28,6 +28,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      Evol = "Evol.lua"
+      ["Math.Evol"] = "Evol.lua"
    },
 }
